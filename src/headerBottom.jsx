@@ -5,6 +5,7 @@ import { GiCardExchange } from "react-icons/gi";
 import { FaShoppingBasket } from "react-icons/fa";
 import { FaRegUser } from "react-icons/fa";
 import { FaHome } from "react-icons/fa";
+import { MdFavorite } from "react-icons/md";
 
 const HeaderBottom = () => {
   return (
@@ -13,8 +14,8 @@ const HeaderBottom = () => {
       <FaHome className="text-[30px]"/>
         
       </Link>
-      <Link to="/" className="block text-center">
-      <TbCategory className="text-[30px]" />
+      <Link to="/like" className="block text-center">
+      <MdFavorite className="text-[30px]" />
         
       </Link>
       <Link to="/kirish" className="block text-center">
