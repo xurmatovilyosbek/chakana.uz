@@ -7,7 +7,7 @@ const Footer = () => {
     <div>
 
      
-      <section className="w-full flex justify-between items-start mt-[100px] text-white bg-gray-600 p-[20px]" id="sc3">
+      <section className="w-full flex justify-between items-start mt-[100px] text-white bg-gray-600 p-[20px] text-center" id="sc3">
         <div>
           <h1 className="text-2xl mb-[20px]">kontaktlar</h1>
           <p>Telefon: +998 78-777-88-99</p>

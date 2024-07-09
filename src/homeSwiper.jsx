@@ -19,7 +19,7 @@ export default function App() {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
   return (
-    <div className="pt-[90px]">
+    <div className="h-auto">
       <Swiper
         style={{
           "--swiper-navigation-color": "#fd0000",
@@ -32,7 +32,7 @@ export default function App() {
         navigation={true}
         thumbs={{ swiper: thumbsSwiper }}
         modules={[FreeMode, Navigation, Thumbs, Mousewheel]}
-        className=" mySwiper2"
+        className=" mySwiper2 h-auto"
         autoplay={300}
       >
         <SwiperSlide className="swippp">

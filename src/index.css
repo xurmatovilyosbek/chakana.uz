@@ -20,3 +20,6 @@
   background: red; 
   border-radius: 10px;
 }
+#root{
+  padding:0 5px;
+}

@@ -13,6 +13,11 @@
         display: none;
     }
 }
+@media screen and (max-width:1000px){
+    #hidden{
+        display: flex;
+    }
+}
 @media screen and (max-width:935px){
     header{
         display: flex;
